@@ -33,6 +33,8 @@ $ docker run --name passport-reader -p 8000:8000 wowai/passport-reader
 ```
 The API is then available at http://0.0.0.0:8000/
 
+**Note:** the original repository is built and ran well on Ubuntu 22.04 LTS. It hasn't been tested on any other OS yet.
+
 ## 2. API ENDPOINTS
 ### 1. POST /passport_extract
 Request URL: http://0.0.0.0:8000/passport_extract
