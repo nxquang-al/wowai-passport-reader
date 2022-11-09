@@ -10,7 +10,7 @@ $ sudo apt-get tesseract-ocr -y
 ```
 # Create and activate a virtual environment
 $ conda create -n passport_reader python=3.10 -y
-$ source activate passport_reader
+$ conda activate passport_reader
  
 # Install dependencies
 $ pip install -r requirements.txt
